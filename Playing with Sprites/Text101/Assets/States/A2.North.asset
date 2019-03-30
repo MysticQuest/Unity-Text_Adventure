@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30b1ae31d3bf14e4a970d8a02aa4e885, type: 3}
+  m_Name: A2.North
+  m_EditorClassIdentifier: 
+  storyText: "You are in the north room. There are three doors.\n\nWhich door will
+    you pick?\n\n1) South\t\t\n2) Southeast\n3) Southwest"
+  nextStates:
+  - {fileID: 11400000, guid: a27213177deebe04496dcf8576101089, type: 2}
+  - {fileID: 11400000, guid: c78f2c027a06b0e4e8e86cdea8cdf70d, type: 2}
+  - {fileID: 11400000, guid: 49956446287b3de439fa190b7956e566, type: 2}
